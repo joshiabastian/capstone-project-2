@@ -26,17 +26,17 @@ CREATE TABLE users(
   source     text
 );
 
-CREATE TABLE orders(
-  id         bigserial PRIMARY KEY,
-  created_at timestamp,
-  user_id    bigint,
-  product_id bigint,
-  discount   float,
-  quantity   int,
-  subtotal   float,
-  tax        float,
-  total      float
-);
+  CREATE TABLE orders(
+    id         bigserial PRIMARY KEY,
+    created_at timestamp,
+    user_id    bigint,
+    product_id bigint,
+    discount   float,
+    quantity   int,
+    subtotal   float,
+    tax        float,
+    total      float
+  );
 
 CREATE TABLE reviews(
   id         bigserial PRIMARY KEY,
