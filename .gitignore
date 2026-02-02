@@ -1,0 +1,22 @@
+# secrets
+.env
+.env.*
+
+# python
+__pycache__/
+.venv/
+venv/
+
+# data / output
+data/
+output/
+load/
+logs/
+*.csv
+*.parquet
+*.json
+
+# editor
+.DS_Store
+.vscode/
+.idea/
